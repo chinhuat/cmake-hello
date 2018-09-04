@@ -2,8 +2,8 @@ A simple CMake hello world project to demonstrate how CMake build system works.
 
 To build this project, run:
 
-	cmake .
+	cmake . && make
 
 Or a better approach is to do a out-of-tree build:
 
-	mkdir build && cd build && cmake ..
+	mkdir build && cd build && cmake .. && make
